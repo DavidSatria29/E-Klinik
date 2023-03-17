@@ -17,11 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('Klinik', function () {
+Route::get('/Klinik', function () {
     return view('eklinik');
 });
 
 Route::get('Login', function () {
-    return view(log);
+    return view('log');
+});
+Route::get('cek', function () {
+    return view('cek');
 });
 
