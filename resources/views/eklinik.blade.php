@@ -18,15 +18,15 @@
 <section id="tentang">
   <div class="container-fluid">
     <div class="kami row mt-5 justify-content-center">
-      <h1 align="center">About Us</h1>
+      <h2 align="center">About Us</h2>
       <hr size="6px" color="blue" align="center">
     </div>
     <div class="row">
       <div class="gambar col-lg-4 mt-3" >
         <img src="{{ asset('picture\peakp.jpg') }}" class="background-image img-fluid" style="background-size: cover;">
       </div>
-      <div class="kartu col-lg-8 mt-3">
-        <div class="card shadow" style="height: 15rem; width: 100%">
+      <div class="kartu col-lg-7 mt-3">
+        <div class="card shadow" style=" width: 100%">
           <div class="tentang card-body">
             <h5 class="card-title">Apa itu E-Klinik ?</h5>
             <p class="card-text mt-3">E-Klinik merupakan sebuah website pelayanan kesehatan yang dinamis 
@@ -67,8 +67,8 @@
 
 <section id="berita">
   <div class="container" style="margin-bottom: 100px">
-  <div class="row mt-5 justify-content-center">
-      <h1 align="center" style="font-family: Calibri,">Artikel</h1>
+  <div class="kami row mt-5 justify-content-center">
+      <h2 align="center">Artikel</h2>
       <hr size="6px" color="blue" style="width: 70px">
   </div>
   <div class="row mt-5">
