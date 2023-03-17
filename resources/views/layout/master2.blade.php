@@ -115,9 +115,9 @@
             <li class="nav-item"><a class="nav-link @yield('menuSakit')" href="#">Cek Penyakit</a></li>
             <li class="nav-item"><a class="nav-link @yield('menuKontak')" href="#contact">Hubungi Kami </a></li>
           </ul>
-       </div>
       </div>
-   </nav>
+      </div>
+  </nav>
 </section>
 
 @yield('content')

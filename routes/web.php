@@ -22,6 +22,5 @@ Route::get('Klinik', function () {
 });
 
 Route::get('Login', function () {
-    return view(log);
+    return view('log');
 });
-
