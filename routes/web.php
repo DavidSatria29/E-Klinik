@@ -21,6 +21,15 @@ Route::get('/Klinik', function () {
     return view('eklinik');
 });
 
-Route::get('Login', function () {
+Route::get('/login', function () {
     return view('log');
+});
+Route::get('/cek', function () {
+    return view('cek');
+});
+Route::get('/hasil', function () {
+    return view('hasil');
+});
+Route::get('/reg', function () {
+    return view('registrasi');
 });
