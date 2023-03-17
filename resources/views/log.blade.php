@@ -26,18 +26,18 @@
             <img src="{{ asset('picture\health4.jpg') }}" class="card-img-top rounded-top-4" >
             <div class="card-body p-4 p-md-5">
             <form class="form px-md-2" action="" method="post">
-               <h3>Login</h3>
-               <p>Belum punya akun ? <span style="color: red" href="#">Register</span> </p>
-               <div class="form-floating mb-4">
+              <h3>Login</h3>
+              <p>Belum punya akun ? <span style="color: red" href="#">Register</span> </p>
+              <div class="form-floating mb-4">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Enter your username" name="pengguna">
                 <label for="floatingInput">E-mail</label>
-               </div>
-               <div class="form-floating mb-4">
+              </div>
+              <div class="form-floating mb-4">
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Enter Valid Password" name="passkata">
                 <label for="floatingPassword">Password</label>
-               </div>
+              </div>
 
-               <div class="d-flex justify-content-between align-items-center mb-4">
+              <div class="d-flex justify-content-between align-items-center mb-4">
                 <!-- Checkbox -->
                 <div class="form-check mb-0">
                   <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
@@ -46,10 +46,10 @@
                   </label>
                 </div>
                 <a href="" class="text-body">Forgot password ?</a>
-               </div>
+              </div>
 
                 <input type="submit" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;" name="daftar" value="Login">
-             </form>
+            </form>
           </div>
             </div>
           </div>
