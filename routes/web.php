@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('Klinik', function () {
+    return view('eklinik');
+});
+
+Route::get('Login', function () {
+    return view(log);
+});
+
