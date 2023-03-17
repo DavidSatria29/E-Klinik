@@ -126,10 +126,9 @@
           font-weight: 700;
 
         }
-
         footer{
-        position:static;
-        bottom:0;
+        position:absolute;
+        bottom:1;
         left: 0;
         width: 100%;
         }
