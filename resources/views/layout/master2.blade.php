@@ -45,6 +45,7 @@
           font-size: 50px;
           color: #23408e;
           margin-left: 50px;
+          text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
         }
         .isi h6{
           font-family: 'Comfortaa';
@@ -52,6 +53,7 @@
           font-size: 20px;
           color: #385399;
           margin-left: 50px;
+          text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
         }
         .isi a{
           margin-left: 50px;
@@ -88,6 +90,8 @@
           font-family: 'Montserrat';
           font-size: 30px;
           color: #385399
+          text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
         }
         .berita h1{
           font-family: 'Montserrat';
@@ -114,9 +118,17 @@
           display: grid;
           place-items: center;
         }
+        .kopirek {
+          font-family: 'Montserrat';
+        }
+        .hari {
+          font-family: 'Montserrat';
+          font-weight: 700;
+
+        }
 
         footer{
-        position:static ;
+        position:static;
         bottom:0;
         left: 0;
         width: 100%;
@@ -150,11 +162,11 @@
 <footer class="kaki text-white">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 mt-3 mb-3">
-          Copyright &copy E-Klinik<br>
+        <div class="kopirek col-lg-6 mt-3 mb-3">
+          Copyright &copy <b>E-Klinik</b><br>
           <a>Design By <span style="color: aqua">Kelompok 3</span></a>
         </div>
-        <div class="col-lg-6 mt-3" align="right">
+        <div class="hari col-lg-6 mt-3" align="right">
           {{ date("D M Y") }}
         </div>
       </div>

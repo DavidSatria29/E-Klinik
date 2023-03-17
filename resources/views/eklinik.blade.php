@@ -8,7 +8,7 @@
         <h3>Welcome To E-Klinik</h3>
         <h6>Website Pelayanan Kesehatan yang terkini dengan berbagai fitur menarik dan tenaga kesehatan yang terpercaya</h6>
         <a type="button" class="btn btn-primary btn-lg rounded mt-3" style="font-weight: bold;" href="Login">Login</a><br><br>
-        <a class="daftar mt-5">Belum punya Akun ? <span style="color: crimson" href="#">Register</span></a>
+        <a class="daftar mt-5">Belum punya Akun ? <span style="color: crimson" href="#register">Register</span></a>
       </div>
       <div class="logo col-lg-6"><img src="{{ asset('picture\logo.png') }}" class="background-image img-fluid" style="height: 100rem width: 100rem"></div>
     </div>
