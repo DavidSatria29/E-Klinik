@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('Klinik', function () {
+Route::get('/Klinik', function () {
     return view('eklinik');
 });
 
