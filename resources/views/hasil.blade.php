@@ -1,5 +1,6 @@
 @extends('layout.master2')
 <link rel="stylesheet" href="{{ url('css/hasil.css') }}">
+
 @section('content')
 <div class="container mb-5 hasil" id="hide">
   <div class="card border-0 shadow-lg">
@@ -57,4 +58,5 @@
     </div>
   </div>
 </div>
+
 @endsection

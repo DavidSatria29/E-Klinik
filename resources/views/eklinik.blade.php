@@ -73,7 +73,7 @@
   </div>
   <div class="row mt-5">
     <div class="tahu col-lg-4 justify-content-center">
-      <div class="card" style="width: 22rem;">
+      <div class="card" >
         <img src="{{ asset('picture\article1.jpeg') }}" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Olahraga Cuma 11 Menit per Hari Bisa Turunkan Risiko Kematian Dini.</p>
@@ -82,7 +82,7 @@
       </div>
     </div>
     <div class="tahu col-lg-4 justify-content-center">
-      <div class="card" style="width: 22rem;">
+      <div class="card" >
         <img src="{{ asset('picture\article2.jpeg') }}" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Benarkah Susu Kedelai Bisa Picu Endometriosis ?</p>
@@ -91,7 +91,7 @@
       </div>
     </div>
     <div class="tahu col-lg-4 justify-content-center">
-      <div class="card" style="width: 22rem;">
+      <div class="card" >
         <img src="{{ asset('picture\article3.jpeg') }}" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">Disebut Jadi 'Superfood', Apakah Kelor Aman dari Efek Samping ? </p>
@@ -104,7 +104,7 @@
 </div>
 <div class="row mt-3">
   <div class="tahu col-lg-4 justify-content-center">
-    <div class="card" style="width: 22rem;">
+    <div class="card" >
       <img src="{{ asset('picture\article4.jpeg') }}" class="card-img-top" alt="...">
       <div class="card-body">
           <p class="card-text">8 Gejala Batu Ginjal yang Tak Boleh Disepelekan</p>
@@ -113,7 +113,7 @@
     </div>
   </div>
   <div class="tahu col-lg-4 justify-content-center">
-    <div class="card" style="width: 22rem;">
+    <div class="card" >
       <img src="{{ asset('picture\article5.jpeg') }}" class="card-img-top" alt="...">
       <div class="card-body">
           <p class="card-text">Cara Terapi Uap untuk Mengencerkan Lendir di Paru-paru</p>
@@ -122,7 +122,7 @@
     </div>
   </div>
   <div class="tahu col-lg-4 justify-content-center">
-    <div class="card" style="width: 22rem;">
+    <div class="card" >
       <img src="{{ asset('picture\article6.jpeg') }}" class="card-img-top" alt="...">
       <div class="card-body">
           <p class="card-text">Studi Temukan Gula Nol Kalori Tak Selalu Sehat, Bisa Picu Stroke</p>
@@ -136,7 +136,7 @@
 
 <section class="ending mt-5" id="contact">
   <div class="container">
-    <div class="row mx-auto mt-5">
+    <div class="row mx-auto" style="width: 65%">
       <div class="col-lg-12">
         <div class="mt-5 mb-3">
           <label for="exampleFormControlInput1" class="form-label">Name</label>
@@ -148,7 +148,7 @@
         </div>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Tulis pesan anda"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Tulis pesan anda"></textarea>
         </div>
         <center>
           <div class="mb-5 ">

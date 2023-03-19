@@ -11,129 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400&family=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="{{ url('css/klinik.css') }}">
     <title>@yield('title')</title>
-    <style>
-      .navbar{
-        height: 70px;
-      }
-        .navbar-brand {
-          color: #ffffff;
-          font-weight: 900;
-          font-family: 'Arial Narrow';
-        }
-        .nav-link{
-          color: lightgrey;
-          font-weight: 400;
-          font-size: 18px;
-          font-family: Righteous;
-        }
-        .nav-link:hover{
-          color: lightblue;
-          font-weight: 400;
-          font-size: 18px;
-          font-family: 'Righteous';
-        }
-        .nav-link > .active{
-          color: aqua;
-          font-weight: 300;
-          font-family: 'Righteous';
-        }
-        .isi h3{
-          margin-top: 100px;
-          font-family: Montserrat;
-          font-weight: 800;
-          font-size: 50px;
-          color: #23408e;
-          margin-left: 50px;
-          text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-        }
-        .isi h6{
-          font-family: 'Comfortaa';
-          font-weight: 500;
-          font-size: 20px;
-          color: #385399;
-          margin-left: 50px;
-          text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-        }
-        .isi a{
-          margin-left: 50px;
-        }
-        .daftar{
-          font-size: 15px;
-          font-weight: 600;
-          font-family: 'Montserrat';
-          color: black;
-        }
-        .kami h2{
-          font-family: 'Montserrat';
-          font-weight: 800;
 
-        }
-        .kami hr{
-          width: 70px;
-
-        }
-        .beranda{
-          background-image: url('/picture/health.jpg');
-          background-size: cover;
-          height: 110vh;
-        }
-        .tentang p{
-          font-family: ;
-          font-weight: 500;
-          font-size: 20px;
-          color: grey;
-        }
-        .tentang h5{
-          text-align: center;
-          font-weight: 700;
-          font-family: 'Montserrat';
-          font-size: 30px;
-          color: #385399
-          text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-
-        }
-        .berita h1{
-          font-family: 'Montserrat';
-        }
-        .ending{
-          background-color: #385399;
-        }
-        .form-label{
-          color: aliceblue;
-          /* font-weight: 700; */
-        }
-        .kaki{
-          background-color: #23408e;
-        }
-        .tahu{
-          display: grid;
-          place-items: center;
-        }
-        .icon{
-          display: grid;
-          place-items: center;
-        }
-        .logo{
-          display: grid;
-          place-items: center;
-        }
-        .kopirek {
-          font-family: 'Montserrat';
-        }
-        .hari {
-          font-family: 'Montserrat';
-          font-weight: 700;
-
-        }
-        footer{
-        position:absolute;
-        bottom:1;
-        left: 0;
-        width: 100%;
-        }
-
-    </style>
 </head>
 <body>
   <section class="navigasi">
@@ -161,12 +41,12 @@
 <footer class="kaki text-white">
     <div class="container">
       <div class="row">
-        <div class="kopirek col-lg-6 mt-3 mb-3">
+        <div class="kopirek col-sm-6 mt-3 mb-3">
           Copyright &copy <b>E-Klinik</b><br>
           <a>Design By <span style="color: aqua">Kelompok 3</span></a>
         </div>
-        <div class="hari col-lg-6 mt-3" align="right">
-          {{ date("D M Y") }}
+        <div class="hari col-sm-6 mt-3 " align="right">
+          {{ date("l, d M Y") }}
         </div>
       </div>
     </div>
