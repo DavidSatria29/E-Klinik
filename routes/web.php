@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\artikel;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,20 +15,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/klinik', function () {
-    return view ('eklinik');
+    return view('eklinik');
 });
 
 Route::get('/login', function () {
-    return view ('log');
+    return view('log');
 });
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Klinik', function () {
-    return view('eklinik');
-});
+// Route::get('/Klinik', function () {
+//     return view('eklinik');
+// });
 
 Route::get('/login', function () {
     return view('log');
@@ -41,3 +42,4 @@ Route::get('/hasil', function () {
 Route::get('/reg', function () {
     return view('registrasi');
 });
+Route::get('/klinik', [artikel::class, 'tampil']);
