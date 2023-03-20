@@ -30,7 +30,6 @@
             <div class="card rounded-4 shadow mb-5">
             <img src="{{ asset('picture\health4.jpg') }}" class="card-img-top rounded-top-4" >
             <div class="card-body p-4 p-md-5">
-<<<<<<< HEAD
             <form class="form px-md-2" action="" method="post">
               <h3 class="text-center">Login</h3>
               <div class="form-floating mb-4">
@@ -44,22 +43,6 @@
                 <span id="PesanPassword"></span>
                 <label for="LogPass">Password</label>
               </div>
-=======
->>>>>>> 36eb4338960fff020c2f6647b3bc791cd2cb4cd4
-
-            <form class="form px-md-2" action="{{ route('login.verif') }}" method="post" id="mainform">
-              @csrf
-              <h3 class="text-center">Login</h3>
-                <div class="form-floating mb-4">
-                  <input type="email" class="form-control" id="email" placeholder="Enter Your Username" name="email">
-                  <label for="email">E-Mail</label>
-                </div>
-                <span class="text-danger error-text email_error"></span>
-                <div class="form-floating mb-4">
-                  <input type="password" class="form-control" id="password" placeholder="Enter Valid Password" name="password">
-                  <label for="password">Password</label>
-                </div>
-                <span class="text-danger error-text password_error"></span>
               <div class="d-flex justify-content-between align-items-center mb-4">
                 <!-- Checkbox -->
                 <div class="form-check mb-0">
@@ -73,12 +56,7 @@
                 </div>
                 <a href="" class="text-body mt-3">Forgot password ?</a>
               </div>
-<<<<<<< HEAD
               {{-- <input type="submit" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;" name="daftar" value="Login" id="tombol"> --}}
-=======
-
-              <input type="submit" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;" name="submit" value="Login">
->>>>>>> 36eb4338960fff020c2f6647b3bc791cd2cb4cd4
             </form>
             <button class="btn btn-primary" onclick="window.location.href='/klinik'" id="tumbol">SUBMIT</button>
           </div>
@@ -91,14 +69,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-<<<<<<< HEAD
     <script src="js/JQuery.js"></script>
     <script src="js/login.js"></script>
-=======
-    <script src="{{ url('js/jquery.js') }}"></script>
-    <script src="{{ url('js/login.js') }}"></script>
-
->>>>>>> 36eb4338960fff020c2f6647b3bc791cd2cb4cd4
   </body>
 </html>
 

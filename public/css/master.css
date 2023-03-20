@@ -59,9 +59,8 @@
     width: 70px;
 }
 .beranda {
-    background-image: url("/picture/health.jpg");
+    background-image: url("/picture/health5.jpg");
     background-size: cover;
-    height: 110vh;
 }
 .tentang p {
     font-weight: 500;
