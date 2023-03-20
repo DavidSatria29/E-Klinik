@@ -1,0 +1,119 @@
+.navbar {
+    height: 70px;
+}
+.navbar-brand {
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Arial Narrow";
+}
+.nav-link {
+    color: lightgrey;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Righteous;
+}
+.nav-link:hover {
+    color: lightblue;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Righteous";
+}
+.nav-link > .active {
+    color: aqua;
+    font-weight: 300;
+    font-family: "Righteous";
+}
+.isi h3 {
+    margin-top: 100px;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 50px;
+    color: #23408e;
+    margin-left: 50px;
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.isi h6 {
+    font-family: "Comfortaa";
+    font-weight: 500;
+    font-size: 20px;
+    color: #385399;
+    margin-left: 50px;
+    text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.isi a {
+    margin-left: 50px;
+}
+.daftar {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    color: black;
+}
+.kami h2 {
+    font-family: "Montserrat";
+    font-weight: 800;
+}
+.kami hr {
+    width: 70px;
+}
+.beranda {
+    background-image: url("/picture/health.jpg");
+    background-size: cover;
+    height: 110vh;
+}
+.tentang p {
+    font-weight: 500;
+    font-size: 20px;
+    color: grey;
+}
+.tentang h5 {
+    text-align: center;
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-size: 30px;
+    color: #385399;
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.berita h1 {
+    font-family: "Montserrat";
+}
+.ending {
+    background-color: #385399;
+}
+.form-label {
+    color: aliceblue;
+    /* font-weight: 700; */
+}
+.kaki {
+    background-color: #23408e;
+}
+.tahu {
+    display: grid;
+    place-items: center;
+}
+.icon {
+    display: grid;
+    place-items: center;
+}
+.logo {
+    display: grid;
+    place-items: center;
+}
+.kopirek {
+    font-family: "Montserrat";
+}
+.hari {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+.kartu {
+    display: inline;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

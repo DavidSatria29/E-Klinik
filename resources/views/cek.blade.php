@@ -82,10 +82,10 @@
               </div>
             </div>
           </div>
-          <div>
-            <button class="btn btn-primary mt-3" type="submit">SUBMIT</button>
-          </div>
-      </form>
+        </form>
+        <div>
+          <button class="btn btn-primary mt-3" onclick="window.location.href='/hasil'">SUBMIT</button>
+        </div>
     </div>
     </div>
 </div>

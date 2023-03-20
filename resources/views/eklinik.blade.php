@@ -7,8 +7,8 @@
       <div class="isi col-lg-6">
         <h3>Welcome To E-Klinik</h3>
         <h6>Website Pelayanan Kesehatan yang terkini dengan berbagai fitur menarik dan tenaga kesehatan yang terpercaya</h6>
-        <a type="button" class="btn btn-primary btn-lg rounded mt-3" style="font-weight: bold;" href="Login">Login</a><br><br>
-        <a class="daftar mt-5">Belum punya Akun ? <span style="color: crimson" href="#">Register</span></a>
+        <a type="button" class="btn btn-primary btn-lg rounded mt-3" style="font-weight: bold;" href="/login">Login</a><br><br>
+        <span>Belum Punya Akun?<a href="/reg" style="color:crimson">Register</a></span>
       </div>
       <div class="logo col-lg-6"><img src="{{ asset('picture\logo.png') }}" class="background-image img-fluid" style="height: 100rem width: 100rem"></div>
     </div>
@@ -23,13 +23,13 @@
     </div>
     <div class="row">
       <div class="gambar col-lg-4 mt-3" >
-        <img src="{{ asset('picture\peakp.jpg') }}" class="background-image img-fluid" style="background-size: cover;">
+        <img src="{{ asset('picture\peakp.jpg') }}" class="background-image img-fluid" style="background-size: cover; height:1000px;">
       </div>
       <div class="kartu col-lg-8 mt-3">
-        <div class="card shadow" style="height: 15rem; width: 100%">
+        <div class="card shadow" style="height: 18rem; width: 100%">
           <div class="tentang card-body" data-aos="fade-right">>
             <h5 class="card-title">Apa itu E-Klinik ?</h5>
-            <p class="card-text mt-3">E-Klinik merupakan sebuah website pelayanan kesehatan yang dinamis 
+            <p class="card-text mt-3 fs-5" style="color:black">E-Klinik merupakan sebuah website pelayanan kesehatan yang dinamis 
               dengan berbagai fitur yang menarik. Terdapat pilihan berbagai pelayanan kesehatan 
               yang dapat dipilih oleh pengguna sesuai kebutuhan mereka, seperti pelayanan 
               kesehatan fisik , mental dan lain-lain. Pengguna juga dapat melihat profil para staff, 

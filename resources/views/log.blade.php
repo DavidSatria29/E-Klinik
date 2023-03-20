@@ -28,12 +28,15 @@
             <form class="form px-md-2" action="" method="post">
               <h3 class="text-center">Login</h3>
               <div class="form-floating mb-4">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Enter your username" name="pengguna">
-                <label for="floatingInput">E-mail</label>
+                <input type="email" class="form-control" id="LoginEmail" placeholder="Enter your username" name="pengguna">
+                <span id="pesanEmail"></span>
+                <label for="LoginEmail">E-mail</label>
               </div>
+              <div></div>
               <div class="form-floating mb-4">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Enter Valid Password" name="passkata">
-                <label for="floatingPassword">Password</label>
+                <input type="password" class="form-control" id="LogPass" placeholder="Enter Valid Password" name="passkata">
+                <span id="PesanPassword"></span>
+                <label for="LogPass">Password</label>
               </div>
 
               <div class="d-flex justify-content-between align-items-center mb-4">
@@ -44,14 +47,14 @@
                     Remember me
                   </label>
                   <div class="mt-2">
-                    <p>Belum punya akun ? <a style="color: red" href="#">Register</a> </p>
+                    <p>Belum punya akun ? <a style="color: red" href="/reg">Register</a> </p>
                   </div>
                 </div>
                 <a href="" class="text-body mt-3">Forgot password ?</a>
               </div>
-
-              <input type="submit" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;" name="daftar" value="Login">
+              {{-- <input type="submit" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;" name="daftar" value="Login" id="tombol"> --}}
             </form>
+            <button class="btn btn-primary" onclick="window.location.href='/klinik'" id="tumbol">SUBMIT</button>
           </div>
             </div>
           </div>
@@ -62,6 +65,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="js/JQuery.js"></script>
+    <script src="js/login.js"></script>
   </body>
 </html>
 
