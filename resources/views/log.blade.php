@@ -41,20 +41,6 @@
                 <span id="PesanPassword"></span>
                 <label for="LogPass">Password</label>
               </div>
-
-            <form class="form px-md-2" action="{{ route('login.verif') }}" method="post" id="mainform">
-              @csrf
-              <h3 class="text-center">Login</h3>
-                <div class="form-floating mb-4">
-                  <input type="email" class="form-control" id="email" placeholder="Enter Your Username" name="email">
-                  <label for="email">E-Mail</label>
-                </div>
-                <span class="text-danger error-text email_error"></span>
-                <div class="form-floating mb-4">
-                  <input type="password" class="form-control" id="password" placeholder="Enter Valid Password" name="password">
-                  <label for="password">Password</label>
-                </div>
-                <span class="text-danger error-text password_error"></span>
               <div class="d-flex justify-content-between align-items-center mb-4">
                 <!-- Checkbox -->
                 <div class="form-check mb-0">

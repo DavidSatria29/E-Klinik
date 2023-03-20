@@ -31,6 +31,8 @@ Route::get('/', function () {
 //     return view('eklinik');
 // });
 
+
+
 Route::get('/login', function () {
     return view('log');
 });
@@ -44,5 +46,6 @@ Route::get('/reg', function () {
     return view('registrasi');
 });
 
+
 Route::get('/klinik', [artikel::class, 'tampil']);
-Route::post('verif', [SessionController::class, 'verif'])->name('login.verif');
+// Route::post('login/verif', [SessionController::class, 'verif'])->name('login.verif');

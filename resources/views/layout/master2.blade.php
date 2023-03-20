@@ -11,8 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400&family=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="css/klinik.css">
+    <link rel="stylesheet" href="{{ url('css/master.css') }}">
     <title>@yield('title')</title>
+
 </head>
 <body class="d-flex flex-column min-vh-100">
   <section class="navigasi">
