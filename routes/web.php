@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\artikel;
 use Illuminate\Support\Facades\Route;
+use App\Http\controllers\SessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,32 +15,34 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/klinik', function () {
-    return view('eklinik');
-});
+// Route::get('/klinik', function () {
+//     return view ('eklinik');
+// });
 
-Route::get('/login', function () {
-    return view('log');
-});
+// Route::get('/login', function () {
+//     return view ('log');
+// });
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // Route::get('/Klinik', function () {
 //     return view('eklinik');
 // });
 
-Route::get('/login', function () {
-    return view('log');
-});
-Route::get('/cek', function () {
-    return view('cek');
-});
-Route::get('/hasil', function () {
-    return view('hasil');
-});
-Route::get('/reg', function () {
-    return view('registrasi');
-});
-Route::get('/klinik', [artikel::class, 'tampil']);
+// Route::get('/login', function () {
+//     return view('log');
+// });
+// Route::get('/cek', function () {
+//     return view('cek');
+// });
+// Route::get('/hasil', function () {
+//     return view('hasil');
+// });
+// Route::get('/reg', function () {
+//     return view('registrasi');
+// });
+
+Route::get('login', [SessionController::class, 'login']);
+Route::post('verif', [SessionController::class, 'verif'])->name('login.verif');

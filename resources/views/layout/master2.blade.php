@@ -11,8 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400&family=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">    
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/master.css">
     <title>@yield('title')</title>
+=======
+    <link rel="stylesheet" href="{{ url('css/klinik.css') }}">
+    <title>@yield('title')</title>
+
+>>>>>>> 36eb4338960fff020c2f6647b3bc791cd2cb4cd4
 </head>
 <body>
   <section class="navigasi">
@@ -40,12 +46,12 @@
 <footer class="kaki text-white">
     <div class="container">
       <div class="row">
-        <div class="kopirek col-lg-6 mt-3 mb-3">
+        <div class="kopirek col-sm-6 mt-3 mb-3">
           Copyright &copy <b>E-Klinik</b><br>
           <a>Design By <span style="color: aqua">Kelompok 3</span></a>
         </div>
-        <div class="hari col-lg-6 mt-3" align="right">
-          {{ date("D M Y") }}
+        <div class="hari col-sm-6 mt-3 " align="right">
+          {{ date("l, d M Y") }}
         </div>
       </div>
     </div>
