@@ -1,5 +1,11 @@
 @extends('layout.master2')
-
+<style>
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
 @section('content')
 <div class="container mt-5 pt-5">
   <div class="card shadow">

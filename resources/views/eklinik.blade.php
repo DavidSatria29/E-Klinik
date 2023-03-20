@@ -1,9 +1,10 @@
 @extends('layout.master2')
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="css/klinik.css">
 @section('content')
 <section class="beranda" id="section2">
   <div class="container-fluid">
-    <div class="row justify-content-center d-flex py-5" data-aos="fade-down">>
+    <div class="row justify-content-center d-flex py-5" data-aos="fade-down">
       <div class="isi col-lg-6">
         <h3>Welcome To E-Klinik</h3>
         <h6>Website Pelayanan Kesehatan yang terkini dengan berbagai fitur menarik dan tenaga kesehatan yang terpercaya</h6>
@@ -25,7 +26,7 @@
       <div class="gambar col-lg-4 mt-3" >
         <img src="{{ asset('picture\peakp.jpg') }}" class="background-image img-fluid" style="background-size: cover; height:1000px;">
       </div>
-      <div class="kartu col-lg-8 mt-3">
+      <div class="kartu col-lg-7 mt-3">
         <div class="card shadow" style="height: 18rem; width: 100%">
           <div class="tentang card-body" data-aos="fade-right">>
             <h5 class="card-title">Apa itu E-Klinik ?</h5>
@@ -73,13 +74,8 @@
       <hr size="6px" color="blue" style="width: 70px">
   </div>
   <div class="row mt-5">
-<<<<<<< HEAD
-    <div class="tahu col-lg-4 justify-content-center">
-      <div class="card" >
-=======
-    <div class="tahu col-lg-4 justify-content-center" data-aos="flip-left">
-      <div class="card" style="width: 22rem;">
->>>>>>> 2c3fcf5e9e894dbd2fe341d25901ee35a5b12f23
+    <div class="tahu col-lg-4 justify-content-center" data-aos="flip-left" >
+      <div class="card">
         <img src="{{ asset('picture\article1.jpeg') }}" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">{{ $judul[0] }}<p>
@@ -87,13 +83,8 @@
         </div>
       </div>
     </div>
-<<<<<<< HEAD
-    <div class="tahu col-lg-4 justify-content-center">
-      <div class="card" >
-=======
     <div class="tahu col-lg-4 justify-content-center" data-aos="flip-left" data-aos-delay="100">
-      <div class="card" style="width: 22rem;">
->>>>>>> 2c3fcf5e9e894dbd2fe341d25901ee35a5b12f23
+      <div class="card" >
         <img src="{{ asset('picture\article2.jpeg') }}" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">{{ $judul[1] }}</p>
@@ -101,13 +92,8 @@
         </div>
       </div>
     </div>
-<<<<<<< HEAD
-    <div class="tahu col-lg-4 justify-content-center">
-      <div class="card" >
-=======
     <div class="tahu col-lg-4 justify-content-center" data-aos="flip-left" data-aos-delay="200">
-      <div class="card" style="width: 22rem;">
->>>>>>> 2c3fcf5e9e894dbd2fe341d25901ee35a5b12f23
+      <div class="card" >
         <img src="{{ asset('picture\article3.jpeg') }}" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text">{{ $judul[2] }}</p>
@@ -116,16 +102,10 @@
       </div>
     </div>
   </div>
-  <div class="row mt-5 justify-content-center">
 </div>
 <div class="row mt-3">
-<<<<<<< HEAD
-  <div class="tahu col-lg-4 justify-content-center">
+  <div class="tahu col-lg-4 justify-content-center"data-aos="flip-left" data-aos-delay="300">
     <div class="card" >
-=======
-  <div class="tahu col-lg-4 justify-content-center" data-aos="flip-left" data-aos-delay="300">
-    <div class="card" style="width: 22rem;">
->>>>>>> 2c3fcf5e9e894dbd2fe341d25901ee35a5b12f23
       <img src="{{ asset('picture\article4.jpeg') }}" class="card-img-top" alt="...">
       <div class="card-body">
           <p class="card-text">8 Gejala Batu Ginjal yang Tak Boleh Disepelekan</p>
@@ -133,13 +113,8 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-  <div class="tahu col-lg-4 justify-content-center">
-    <div class="card" >
-=======
   <div class="tahu col-lg-4 justify-content-center" data-aos="flip-left" data-aos-delay="400">
-    <div class="card" style="width: 22rem;">
->>>>>>> 2c3fcf5e9e894dbd2fe341d25901ee35a5b12f23
+    <div class="card" >
       <img src="{{ asset('picture\article5.jpeg') }}" class="card-img-top" alt="...">
       <div class="card-body">
           <p class="card-text">Cara Terapi Uap untuk Mengencerkan Lendir di Paru-paru</p>
@@ -147,13 +122,8 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-  <div class="tahu col-lg-4 justify-content-center">
-    <div class="card" >
-=======
   <div class="tahu col-lg-4 justify-content-center" data-aos="flip-left" data-aos-delay="500">
-    <div class="card" style="width: 22rem;">
->>>>>>> 2c3fcf5e9e894dbd2fe341d25901ee35a5b12f23
+    <div class="card" >
       <img src="{{ asset('picture\article6.jpeg') }}" class="card-img-top" alt="...">
       <div class="card-body">
           <p class="card-text">Studi Temukan Gula Nol Kalori Tak Selalu Sehat, Bisa Picu Stroke</p>
@@ -166,16 +136,11 @@
 </section>
 
 <section class="ending mt-5" id="contact">
-<<<<<<< HEAD
   <div class="container">
+    <h3 class="text-center mt-2" style="color:white">Kontak Kami</h3>
     <div class="row mx-auto" style="width: 65%">
-=======
-  <div class="container" data-aos="fade-up">>
-    <h3 class="text-center">Kontak Kami</h3>
-    <div class="row mx-auto mt-2">
->>>>>>> 2c3fcf5e9e894dbd2fe341d25901ee35a5b12f23
       <div class="col-lg-12">
-        <div class="mt-5 mb-3">
+        <div class="mt-2 mb-3">
           <label for="exampleFormControlInput1" class="form-label">Name</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tulis nama lengkap anda">
         </div>

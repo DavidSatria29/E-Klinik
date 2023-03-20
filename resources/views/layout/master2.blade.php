@@ -11,19 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400&family=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">    
-<<<<<<< HEAD
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/klinik.css">
     <title>@yield('title')</title>
-=======
-    <link rel="stylesheet" href="{{ url('css/klinik.css') }}">
-    <title>@yield('title')</title>
-
->>>>>>> 36eb4338960fff020c2f6647b3bc791cd2cb4cd4
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
   <section class="navigasi">
     <nav class="navbar fixed-top shadow navbar-expand-lg " style="background-color: #385399;">
-      <div class="container-fluid justify-content-center">
+      <div class="container justify-content-center">
         <a class="navbar-brand rounded" href="#">E-KLINIK</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent " aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -55,6 +49,7 @@
         </div>
       </div>
     </div>
-  </footer> 
+  </footer>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
   </html>

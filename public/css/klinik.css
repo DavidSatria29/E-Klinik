@@ -1,120 +1,111 @@
-
-.navbar{
-  height: 70px;
+.navbar {
+    height: 70px;
 }
-  .navbar-brand {
+.navbar-brand {
     color: #ffffff;
     font-weight: 900;
-    font-family: 'Arial Narrow';
-  }
-  .nav-link{
+    font-family: "Arial Narrow";
+}
+.nav-link {
     color: lightgrey;
     font-weight: 400;
     font-size: 18px;
     font-family: Righteous;
-  }
-  .nav-link:hover{
+}
+.nav-link:hover {
     color: lightblue;
     font-weight: 400;
     font-size: 18px;
-    font-family: 'Righteous';
-  }
-  .nav-link > .active{
+    font-family: "Righteous";
+}
+.nav-link > .active {
     color: aqua;
     font-weight: 300;
-    font-family: 'Righteous';
-  }
-  .isi h3{
+    font-family: "Righteous";
+}
+.isi h3 {
     margin-top: 100px;
     font-family: Montserrat;
     font-weight: 800;
     font-size: 50px;
     color: #23408e;
     margin-left: 50px;
-    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  }
-  .isi h6{
-    font-family: 'Comfortaa';
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.isi h6 {
+    font-family: "Comfortaa";
     font-weight: 500;
     font-size: 20px;
     color: #385399;
     margin-left: 50px;
-    text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  }
-  .isi a{
+    text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.isi a {
     margin-left: 50px;
-  }
-  .daftar{
+}
+.daftar {
     font-size: 15px;
     font-weight: 600;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     color: black;
-  }
-  .kami h2{
-    font-family: 'Montserrat';
+}
+.kami h2 {
+    font-family: "Montserrat";
     font-weight: 800;
-
-  }
-  .kami hr{
+}
+.kami hr {
     width: 70px;
-
-  }
-  .beranda{
-    background-image: url('/picture/health5.jpg');
+}
+.beranda {
+    background-image: url("/picture/health5.jpg");
     background-size: cover;
-    
-  }
-  .tentang p{
-
+}
+.tentang p {
     font-weight: 500;
     font-size: 20px;
     color: grey;
-  }
-  .tentang h5{
+}
+.tentang h5 {
     text-align: center;
     font-weight: 700;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 30px;
     color: #385399;
-    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  }
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
 
-  .berita h1{
-    font-family: 'Montserrat';
-  }
-  .ending{
+.berita h1 {
+    font-family: "Montserrat";
+}
+.ending {
     background-color: #385399;
-  }
-  .form-label{
+}
+.form-label {
     color: aliceblue;
     /* font-weight: 700; */
-  }
-  .kaki{
+}
+.kaki {
     background-color: #23408e;
-  }
-  .tahu{
+}
+.tahu {
     display: grid;
     place-items: center;
-  }
-  .icon{
+}
+.icon {
     display: grid;
     place-items: center;
-  }
-  .logo{
+}
+.logo {
     display: grid;
     place-items: center;
-  }
-  .kopirek {
-    font-family: 'Montserrat';
-  }
-  .hari {
-    font-family: 'Montserrat';
+}
+.kopirek {
+    font-family: "Montserrat";
+}
+.hari {
+    font-family: "Montserrat";
     font-weight: 700;
-
-  }
-  footer{
-  position:absolute;
-  bottom:1;
-  left: 0;
-  width: 100%;
-  }
+}
